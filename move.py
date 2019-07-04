@@ -83,7 +83,7 @@ class MovePub:
             diff_pos = [pos[0] - origin_pos[0], pos[1] - origin_pos[1], pos[2] - origin_pos[2]]
             diff_len = math.sqrt(diff_pos[0] * diff_pos[0] + diff_pos[1] * diff_pos[1] + diff_pos[2] * diff_pos[2])
 
-            diff_rot = math.atan2(rot[3], rot[0]) - math.atan2(origin_rot[3], origin_rot[0])
+            diff_rot = (math.atan2(rot[3], rot[0]) - math.atan2(origin_rot[3], origin_rot[0])) * 2.0
             if diff_rot > math.pi:
                 diff_rot = diff_rot - math.pi
             if diff_rot < - math.pi:

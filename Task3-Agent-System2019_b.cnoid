@@ -1,0 +1,424 @@
+items: 
+  id: 0
+  name: "Root"
+  plugin: Base
+  class: RootItem
+  children:
+    - 
+      id: 1
+      name: "Table"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "models/table.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 11, 1.5, 0.7 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 11, 1.5, 0.7 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 2
+      name: "TrashBox"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "models/TrashBox.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 16, -2.3, 0 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 16, -2.3, 0 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 3
+      name: "Trash1"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "models/trash_a.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 10.8, 1.5, 0.701 ] ## center table
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 10.8, 1.5, 0.701 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: true
+    - 
+      id: 4
+      name: "Trash2"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "models/trash_b.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 11.15, 1.5, 0.701 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 11.15, 1.5, 0.701 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: true
+    - 
+      id: 10
+      name: "Trash3"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "models/trash_c.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 10.9, 1.0, 0.71 ]
+        rootAttitude: [ 
+          0, 1, 0, 
+         -1, 0, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 10.9, 1.0, 0.71 ]
+        initialRootAttitude: [ 
+          0, 1, 0, 
+         -1, 0, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: true
+    - 
+      id: 11
+      name: "Trash4"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "models/trash_d.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 10.98, 1.9, 0.8 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 10.98, 1.9, 0.8 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: true
+    - 
+      id: 12
+      name: "Trash5"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "models/trash_e.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 11.02, 1.9, 0.95 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 11.02, 1.9, 0.95 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: true
+    - 
+      id: 13
+      name: "Trash6"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "models/trash_f.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 8, -2.0, 0.1 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 8, -2.0, 0.1 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: true
+    - 
+      id: 14
+      name: "Board"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "models/hook_board.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 15, 2.5, 0.0 ]
+        rootAttitude: [ 
+          0, -1, 0, 
+          1, 0, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 15, 2.5, 0.0 ]
+        initialRootAttitude: [ 
+          0, -1, 0, 
+          1, 0, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: true
+    - 
+      id: 15
+      name: "Trash7"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "models/trash_e_hole.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 15, 2.4, 1.1 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 0, -1, 
+          0, 1, 0 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 15, 2.4, 1.1 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 0, -1, 
+          0, 1, 0 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: true
+    - 
+      id: 16
+      name: "Trash8"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "models/trash_e_hole.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 15, 2.3, 1.1 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 0, -1, 
+          0, 1, 0 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 15, 2.3, 1.1 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 0, -1, 
+          0, 1, 0 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: true        
+    - 
+      id: 17
+      name: "Obstacle"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2018/model/BaseA-50.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 11.5, -0.5, 1 ]
+        rootAttitude: [ 
+          0, 1, 0, 
+          -1, 0, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 11.5, -0.5, 1 ]
+        initialRootAttitude: [ 
+          0, 1, 0, 
+          -1, 0, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false		
+    - 
+      id: 5
+      name: "Flag2R"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2018/model/Flag2R.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 26, -1.5, 0 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 26, -1.5, 0 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 6
+      name: "Flag2L"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2018/model/Flag2L.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 26, 1.5, 0 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 26, 1.5, 0 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 7
+      name: "Flag1R"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2018/model/Flag1R.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 4, -3.5, 0 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 4, -3.5, 0 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 8
+      name: "Flag1L"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2018/model/Flag1L.body"
+        currentBaseLink: "BASE"
+        rootPosition: [ 4, 3.5, 0 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 4, 3.5, 0 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 9
+      name: "RoadSurfaceT2"
+      plugin: Body
+      class: BodyItem
+      data: 
+        modelFile: "${SHARE}/WRS2018/model/Simple_Road_T4.body"
+        currentBaseLink: "Base"
+        rootPosition: [ 0, 0, 0 ]
+        rootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        jointPositions: [  ]
+        initialRootPosition: [ 0, 0, 0 ]
+        initialRootAttitude: [ 
+          1, 0, 0, 
+          0, 1, 0, 
+          0, 0, 1 ]
+        zmp: [ 0, 0, 0 ]
+        collisionDetection: true
+        selfCollisionDetection: false
+        isEditable: false
+    - 
+      id: 99
+      name: "WorldLogFile"
+      plugin: Body
+      class: WorldLogFileItem
+      data: 
+        filename: T4.log
+        timeStampSuffix: true
+        recordingFrameRate: 100
+
+views: 
+  - 
+    id: 1
+    plugin: Base
+    class: ItemTreeView
+    mounted: true
+    state: 
+      checked: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+      expanded: [ 5, 8, 10, 11 ]
+  - 
+    id: 2
+    name: "Camera Scene"
+    plugin: Base
+    class: SceneView
+    state: 
+      dedicatedItemTreeViewChecks: true
+      checked: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
